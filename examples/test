@@ -1,0 +1,6 @@
+Type Struct := {a Int, b Float};
+c Struct:= Struct{3, 5.4};
+d Int := c.a;
+c.b := 3.1;
+printd(c.a);
+printr(c.b);
